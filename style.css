@@ -8,8 +8,8 @@ img {
 
 .aside-wrap {
     width: 240px;
-    background-image: linear-gradient(to bottom right, red, black);~
-
+    background-image: linear-gradient(to bottom right, red, black); 
+    
 }
 
 .aside-wrap .menu-list {
