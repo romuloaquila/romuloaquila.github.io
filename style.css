@@ -8,13 +8,27 @@ html, body, aside, main, section {
     height: 100%;
 }
 
-section {
-    margin-left: 300px;
-}
-
 html {
     scroll-behavior: smooth;
 }
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    padding: 5% 0 0 300px;
+}
+
+.section-title {
+    font-size: 56px;
+}
+
+.section-description {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+/* ASIDE-WRAP */
 .aside-wrap {
     width: 240px;
     background-image: linear-gradient(to bottom right, red, black); 
@@ -53,3 +67,9 @@ html {
    border-bottom: 2px solid;
 }
 
+/* SECTION HOME */
+#home .email-link {
+    text-transform: uppercase;
+    color: red;
+    text-decoration: none;
+}
