@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
+ul:not(.menu-list) {
+    padding: 0;
+}
+
 /* SECTIONS */
 section {
     max-width: 900px;
@@ -71,5 +75,26 @@ section {
 #home .email-link {
     text-transform: uppercase;
     color: red;
+    text-decoration: none;  
+}
+
+
+.social-links {
+    list-style: none; 
+}
+
+.social-links li {
+    display: inline-block;
+    background-color: red;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    padding: 1.25rem;
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 26px;
     text-decoration: none;
+    background-color: red;
 }
