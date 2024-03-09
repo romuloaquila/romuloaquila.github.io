@@ -10,6 +10,7 @@ html, body, aside, main, section {
 
 html {
     scroll-behavior: smooth;
+    /* para deixar a rolagem da página suave */
 }
 
 ul:not(.menu-list) {
