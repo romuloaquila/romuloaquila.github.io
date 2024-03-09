@@ -90,11 +90,16 @@ section {
 }
 
 .social-links li a {
-    padding: 1.25rem;
+    padding: 10px;
     display: block;
     color: #FFF;
     font-weight: bold;
     font-size: 26px;
     text-decoration: none;
     background-color: red;
+}
+
+.social-links a:hover {
+    background-color: rgb(163, 0, 0);
+    transition: 0.3s;
 }
